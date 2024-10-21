@@ -23,7 +23,7 @@ public class ex_5 {
             System.out.println("Факториал числа " + number + " равен " + fact);
         }
 
-        scanner.close();
+
     }
 
 

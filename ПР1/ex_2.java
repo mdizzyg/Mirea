@@ -43,7 +43,5 @@ public class ex_2 {
         System.out.println("Сумма элементов массива: " + sum);
         System.out.println("Максимальный элемент: " + max);
         System.out.println("Минимальный элемент: " + min);
-
-        scanner.close();
     }
 }

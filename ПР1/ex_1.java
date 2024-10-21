@@ -7,10 +7,11 @@ public class ex_1 {
         int size = scanner.nextInt();
         int[] numbers = new int[size];
 
-        System.out.println("Введите " + size + " 1целых чисел:");
-        for (int i = 0; i <size; i++){
+        System.out.println("Введите " + size + " целых чисел:");
+        for (int i = 0; i <numbers.length; i++){
             numbers[i] = scanner.nextInt();
         }
+
         int sum = 0;
         for (int i = 0; i < size; i++){
             sum += numbers[i];
@@ -20,7 +21,7 @@ public class ex_1 {
         System.out.println("Сумма элементов массив: " + size);
         System.out.println("Среднее арифметическое элементов массивов: " + average);
 
-        scanner.close();
+       // scanner.close();
 
     }
 
